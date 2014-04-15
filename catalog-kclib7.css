@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width: 269px) and (max-width: 767px) {
+  /*  and (orientation : portrait) */
+  @viewport {
+    zoom: 1.0 !important;
+    width: device-width !important;
+}
+
+  /* line 9, sass/catalog-kclib7.scss */
+  body {
+    width: 100% !important;
+    min-width: 0px !important;
+    height: 100%;
+    background: #337ab4 none !important;
+  }
+
+  /* line 15, sass/catalog-kclib7.scss */
+  .header, .headerWrapper, #header, #mainMenu, #logo_container, #mainMenuContainer, #content, #q, #searchBoxWrapper, #searchResultsColumn, .list #results_wrapper, #searchBox, .header_container, .list .cell_wrapper, .list .results_bio, .list .results_right, #nm_detail_wrapper, .ui-accordion, #footer, #content {
+    width: 100% !important;
+    height: 100% !important;
+    clear: both !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  /* line 22, sass/catalog-kclib7.scss */
+  #mainMenuContainer div, #mainMenuContainer span {
+    display: block;
+    clear: both;
+    text-align: left;
+  }
+
+  /* line 27, sass/catalog-kclib7.scss */
+  #mainMenuContainer {
+    margin-bottom: 100px;
+  }
+
+  /* line 30, sass/catalog-kclib7.scss */
+  #libInfoContainer {
+    font-size: 18px !important;
+  }
+
+  /* line 33, sass/catalog-kclib7.scss */
+  #libInfoContainer div {
+    margin-bottom: 5px;
+  }
+
+  /* line 36, sass/catalog-kclib7.scss */
+  #searchBoxWrapper {
+    position: relative !important;
+    top: 0px !important;
+    width: auto !important;
+  }
+
+  /* line 41, sass/catalog-kclib7.scss */
+  #searchBox {
+    width: auto !important;
+    margin: 20px !important;
+  }
+
+  /* line 45, sass/catalog-kclib7.scss */
+  .searchLimitsColumn {
+    display: none;
+  }
+
+  /* line 49, sass/catalog-kclib7.scss */
+  .ui-accordion .ui-accordion-content {
+    display: block !important;
+  }
+
+  /* line 52, sass/catalog-kclib7.scss */
+  #searchBoxesWrapper select, #searchBoxesWrapper input, #searchBoxCentered, #basicSearch, .basicSearch, #searchBoxStyleDiv, #form, #dropDown, #searchField, #buttonsWrapper, #footer, #content, .list .results_bio {
+    width: 100% !important;
+    display: block !important;
+    float: none !important;
+    clear: both !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+  }
+
+  /* line 65, sass/catalog-kclib7.scss */
+  .patron_help, #searchBoxHomeLink, #logo_container {
+    display: none !important;
+  }
+
+  /** 
+  * Site Design
+  ***/
+  /* line 73, sass/catalog-kclib7.scss */
+  .headerWrapper {
+    /* end mainMenuContainer */
+  }
+  /* line 76, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer .pipeSeparator {
+    display: none;
+  }
+  /* line 79, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer #adaModeDiv {
+    display: none !important;
+  }
+  /* line 83, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer #libInfoContainer {
+    padding: 20px;
+  }
+  /* line 85, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer #libInfoContainer a {
+    display: block;
+    padding: 5px;
+    border: solid 1px #fff;
+    background-color: #97bfd6;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial;
+  }
+  /* line 94, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer #libInfoContainer a:hover {
+    background-color: #337ab4;
+  }
+  /* line 98, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer #libInfoContainer .loginLink, .headerWrapper #mainMenuContainer #libInfoContainer .menuLink {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* line 104, sass/catalog-kclib7.scss */
+  .headerWrapper #mainMenuContainer #libInfoContainer #libInfoLink {
+    display: none !important;
+  }
+  /* line 110, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper {
+    text-align: left;
+  }
+  /* line 113, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper #searchBox #basicSearch {
+    overflow: hidden;
+  }
+  /* line 115, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper #searchBox #basicSearch #searchLimitDropDown, .headerWrapper #searchBoxWrapper #searchBox #basicSearch #restrictionDropDown, .headerWrapper #searchBoxWrapper #searchBox #basicSearch #searchField input {
+    -webkit-appearance: none !important;
+    padding: 5px !important;
+    background-color: #CCC !important;
+    text-align: left !important;
+    display: block !important;
+  }
+  /* line 122, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper #searchBox #basicSearch #searchField input {
+    -webkit-appearance: none !important;
+    padding: 10px !important;
+    background-color: #FFF !important;
+    text-align: left !important;
+    display: block !important;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+  }
+  /* line 131, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper #searchBox #basicSearch label {
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* line 140, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper #searchBox #basicSearch #searchLimitDropDown_icon, .headerWrapper #searchBoxWrapper #searchBox #basicSearch #restrictionDropDown_icon, .headerWrapper #searchBoxWrapper #searchBox #basicSearch #q_icon, .headerWrapper #searchBoxWrapper #searchBox #basicSearch #searchBoxHomeLink {
+    display: none !important;
+  }
+  /* line 143, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper #searchBox #basicSearch #searchButton {
+    width: auto !important;
+    margin: 20px 20px 20px 0 !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px !important;
+  }
+  /* line 154, sass/catalog-kclib7.scss */
+  .headerWrapper #searchBoxWrapper * {
+    float: none !important;
+    display: block !important;
+  }
+
+  /***
+  * format
+  ***/
+  /* line 165, sass/catalog-kclib7.scss */
+  .resultsToolbar_view_btns {
+    display: none;
+  }
+
+  /* line 169, sass/catalog-kclib7.scss */
+  .holdSpan, .textit, .list .results_right .button {
+    float: left;
+    clear: both;
+    display: none;
+  }
+
+  /* line 174, sass/catalog-kclib7.scss */
+  .list .cell_wrapper {
+    border-bottom: solid 1px #337ab4 !important;
+  }
+
+  /* line 177, sass/catalog-kclib7.scss */
+  .list .results_cell {
+    margin: 20px !important;
+    width: auto !important;
+  }
+
+  /* line 184, sass/catalog-kclib7.scss */
+  .list .results_right, .list .results_bio {
+    padding-top: 20px !important;
+  }
+
+  /* line 189, sass/catalog-kclib7.scss */
+  .list .format_container {
+    float: right !important;
+    top: -30px !important;
+  }
+
+  /* line 194, sass/catalog-kclib7.scss */
+  .results_top_half .results_chkbox, .resultsToolbar_bottom_left, .selectAllCheck, .customDropdown, .navigationImage {
+    display: none !important;
+  }
+
+  /* line 198, sass/catalog-kclib7.scss */
+  .resultsToolbar_middle {
+    text-align: center !important;
+    width: auto !important;
+    max-width: none !important;
+    float: none;
+  }
+
+  /* line 204, sass/catalog-kclib7.scss */
+  .resultsToolbar_right, .resultsToolbar_paginationNumbers {
+    clear: both !important;
+    width: auto !important;
+    min-width: none !important;
+    float: none;
+  }
+
+  /* line 210, sass/catalog-kclib7.scss */
+  .resultsToolbar_right .pagination {
+    height: auto !important;
+    margin: 0 !important;
+    position: relative;
+    top: -10px;
+  }
+
+  /* line 216, sass/catalog-kclib7.scss */
+  .resultsToolbar_paginationNumbers {
+    font-size: 2em !important;
+  }
+
+  /* line 219, sass/catalog-kclib7.scss */
+  .sortDropDown {
+    float: none !important;
+  }
+
+  /* line 222, sass/catalog-kclib7.scss */
+  #searchBoxAdvancedLink {
+    position: relative !important;
+    top: -60px !important;
+    left: 120px !important;
+  }
+
+  /* line 227, sass/catalog-kclib7.scss */
+  .bottomToolbar_right {
+    width: 100%;
+  }
+}
